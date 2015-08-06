@@ -107,6 +107,7 @@
 }
 .panel-heading {
     padding: 0 !important;
+    display:flex;
 }
 .panel-group{
     margin-bottom:5px!important;
@@ -132,7 +133,6 @@
 }
 .legicon, .panelinfo {
     width: 35px;
-    height: 31px;
     border-right: 1px solid rgb(228, 228, 228);
     text-align: center;
     line-height: 31px;
@@ -145,7 +145,6 @@
 .chkicon {
     cursor: pointer;
     width: 32px;
-    height: 31px;
     border-left: 1px solid rgb(228, 228, 228);
     padding-left: 8px;
     line-height: 31px;
@@ -156,7 +155,6 @@
 }
 .togglebox {
     width: 32px;
-    height: 31px;
     /*margin-top: -31px;*/
     float: right;
 }
@@ -494,11 +492,12 @@ input[type=checkbox]:checked + label, input[type=checkbox]:checked + label > div
     font-size: 18px;
 }
 .panel-heading > a{
-    display: inline;
+    display: flex;
 }
 
 .panel-heading> a.accordion-toggle{
-    display: inline-block;   
+    display: flex; 
+    width:100%;  
 }
 .legPanel {
     padding:0px;
