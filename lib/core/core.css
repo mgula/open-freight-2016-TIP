@@ -108,6 +108,7 @@
 .panel-heading {
     padding: 0 !important;
     display:flex;
+    display: -webkit-flex; /*Safari 6.1+ Support*/
 }
 .panel-group{
     margin-bottom:5px!important;
@@ -492,10 +493,12 @@ input[type=checkbox]:checked + label, input[type=checkbox]:checked + label > div
     font-size: 18px;
 }
 .panel-heading > a{
+    display: -webkit-flex; /*Safari 6.1+ Support */
     display: flex;
 }
 
 .panel-heading> a.accordion-toggle{
+    display: -webkit-flex; /*Safari 6.1+ Support */
     display: flex; 
     width:100%;  
 }
