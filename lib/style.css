@@ -68,6 +68,10 @@ a, a:hover {
     float: right;
 }
 .descWrapper{
-height: 147px;
-overflow-y: scroll;
+	height: 145px;
+	overflow-y: scroll;
+}
+
+#needpadding {
+	margin-bottom: 5px;
 }
