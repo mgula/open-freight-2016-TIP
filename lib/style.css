@@ -71,7 +71,6 @@ a, a:hover {
 	height: 145px; /*known 2 pixel difference between ff and chrome here - currently noticeable on ff*/
 	overflow-y: scroll;
 }
-
 #needpadding {
 	margin-bottom: 5px;
 }
